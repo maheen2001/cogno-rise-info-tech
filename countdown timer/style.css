@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./backgroung.jpg');
+    background-position: center;
+    background-size: cover;
+    padding:0 8%;
+    position: relative;
+}
+.content
+{
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%);
+    color: cornflowerblue;
+}
+.content h1
+{
+    font-size: 64px ;
+    font-weight: 600;
+}
+.launch-time
+{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time p
+{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
